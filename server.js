@@ -21,7 +21,7 @@ app.use("/api/v1/employees", employees);
 
 const start = async () => {
     try {
-        await connectDB("mongodb+srv://JSAIABHIRAM:TdzyXHDVHqvficxv@cluster0.cyv7cq1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
+        await connectDB("mongodb+srv://JSAIABHIRAM:n79rqWfzCuGjEDxk@cluster0.cyv7cq1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
         console.log("Connected to the database");
     } catch (err) {
         console.error(err);

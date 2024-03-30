@@ -30,6 +30,6 @@ const start = async () => {
 
 start(); // Start the server after the database is connected
 
-app.listen(process.env.PORT, () => {
+app.listen(8080, () => {
     console.log("Server is running");
 });
